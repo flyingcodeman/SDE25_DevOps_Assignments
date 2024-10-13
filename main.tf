@@ -6,8 +6,8 @@ provider "azurerm" {
 }
 
 variable "docker_image" {
-  description = "DockerHub image flyingcodeman/devops-assignment2"
-  default     = "flyingcodeman/devops-assignment2:latest"
+  description = "DockerHub image flyingcodeman/devops_assignment_dockerhub"
+  default     = "flyingcodeman/devops_assignment_dockerhub:latest"
 }
 
 # Resource Group
